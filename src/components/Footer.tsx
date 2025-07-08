@@ -8,16 +8,15 @@ const Footer: React.FC = () => {
         <div className="flex flex-col md:flex-row justify-between items-center">
           <div className="text-gray-400 mb-4 md:mb-0">
             <p className="flex items-center space-x-2">
-              <span>© 2024 Harsh Agnihotri. Built with</span>
+              <span>© 2025 Harsh Agnihotri. Built with</span>
               <Heart className="w-4 h-4 text-amber-400" />
-              <span>and AI.</span>
             </p>
           </div>
           
           <div className="flex items-center space-x-6">
             <div className="text-sm text-gray-400">
               <span className="bg-gradient-to-r from-amber-400 to-yellow-500 bg-clip-text text-transparent font-semibold">
-                intrinsAi
+                IntrinsAI
               </span>
             </div>
             <div className="flex space-x-4">
