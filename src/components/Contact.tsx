@@ -19,7 +19,7 @@ const Contact: React.FC = () => {
     {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
-      value: "Connect with me",
+      value: "Harsh Agnihotri",
       link: "https://www.linkedin.com/in/harsh-agnihotri-750ab6215/",
       color: "text-gray-400"
     },
