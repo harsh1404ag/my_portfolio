@@ -7,7 +7,6 @@ const Contact: React.FC = () => {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
       value: "harsh@intrinsai.com",
-      link: "mailto:harsh@intrinsai.com",
       color: "text-amber-400"
     },
     {
@@ -21,14 +20,14 @@ const Contact: React.FC = () => {
       icon: <Linkedin className="w-6 h-6" />,
       label: "LinkedIn",
       value: "Connect with me",
-      link: "https://linkedin.com/in/harsh-agnihotri",
+      link: "https://www.linkedin.com/in/harsh-agnihotri-750ab6215/",
       color: "text-gray-400"
     },
     {
       icon: <Github className="w-6 h-6" />,
       label: "GitHub",
       value: "View my code",
-      link: "https://github.com/harsh-agnihotri",
+      link: "https://github.com/harsh1404ag",
       color: "text-slate-400"
     }
   ];
