@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         </p>
         
         <p className="text-lg text-gray-400 mb-8 max-w-2xl mx-auto">
-          Building the future with AI & Machine Learning. Founder of intrinsAi, passionate about creating intelligent solutions for real-world problems.
+          Building the future with AI & Machine Learning. Founder of IntrinsAI, passionate about creating intelligent solutions for real-world problems.
         </p>
         
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
