@@ -16,7 +16,7 @@ const About: React.FC = () => {
     {
       icon: <Rocket className="w-8 h-8 text-yellow-500" />,
       title: "Entrepreneur",
-      description: "Founder of intrinsAi, building innovative AI solutions for the future"
+      description: "Founder of IntrinsAI, building innovative AI solutions for the future"
     }
   ];
 
@@ -44,7 +44,7 @@ const About: React.FC = () => {
             </p>
             
             <p className="text-gray-300 text-lg leading-relaxed">
-              As the founder of intrinsAi, I'm focused on developing cutting-edge AI technologies. Currently, 
+              As the founder of IntrinsAI, I'm focused on developing cutting-edge AI technologies. Currently, 
               I'm building an AI agent specialized in fitness, diet, workouts, and nutrition - combining my 
               technical expertise with a passion for health and wellness.
             </p>
