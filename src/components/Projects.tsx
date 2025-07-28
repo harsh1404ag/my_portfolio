@@ -4,7 +4,7 @@ import { ExternalLink, Brain, Activity, Globe } from 'lucide-react';
 const Projects: React.FC = () => {
   const projects = [
     {
-      title: "intrinsAi",
+      title: "IntrinsAI",
       description: "A cutting-edge AI platform focused on developing intelligent solutions for various industries. Building the future of artificial intelligence with innovative algorithms and user-centric design.",
       icon: <Brain className="w-8 h-8 text-amber-400" />,
       link: "https://www.intrinsai.com/",
