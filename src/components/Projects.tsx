@@ -7,12 +7,12 @@ const Projects: React.FC = () => {
       title: "intrinsAi",
       description: "A cutting-edge AI platform focused on developing intelligent solutions for various industries. Building the future of artificial intelligence with innovative algorithms and user-centric design.",
       icon: <Brain className="w-8 h-8 text-amber-400" />,
-      link: "https://intrinsai.com",
+      link: "https://www.intrinsai.com/",
       tech: ["AI/ML", "Deep Learning", "NLP", "Computer Vision"],
       status: "Live"
     },
     {
-      title: "AI Fitness Agent",
+      title: "Aura Health",
       description: "Currently developing an intelligent AI agent that provides personalized fitness, diet, workout, and nutrition recommendations. Using advanced ML algorithms to create tailored health solutions.",
       icon: <Activity className="w-8 h-8 text-yellow-500" />,
       link: null,
