@@ -12,8 +12,8 @@ const Contact: React.FC = () => {
     {
       icon: <Globe className="w-6 h-6" />,
       label: "Website",
-      value: "intrinsai.com",
-      link: "https://intrinsai.com",
+      value: "IntrinsAI.com",
+      link: "https://www.intrinsai.com/",
       color: "text-yellow-500"
     },
     {
