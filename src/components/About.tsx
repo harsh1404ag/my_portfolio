@@ -1,5 +1,8 @@
 import React from 'react';
-import { GraduationCap, Brain, Rocket } from 'lucide-react';
+import { GraduationCap, Brain, Rocket, Cloud } from 'lucide-react';
+import microsoftLogo from '../Microsoft-for-startup-logo.png';
+import awsLogo from '../aws-logo.png';
+import nvidiaLogo from '../nvidia-inception-program-badge-rgb-for-screen.png';
 
 const About: React.FC = () => {
   const highlights = [
@@ -17,6 +20,11 @@ const About: React.FC = () => {
       icon: <Rocket className="w-8 h-8 text-yellow-500" />,
       title: "Entrepreneur",
       description: "Founder of IntrinsAI, building innovative AI solutions for the future"
+    },
+    {
+      icon: <Cloud className="w-8 h-8 text-orange-400" />,
+      title: "AWS for Startups",
+      description: "Selected for AWS for Startups program, leveraging cloud infrastructure for AI development"
     }
   ];
 
@@ -49,12 +57,12 @@ const About: React.FC = () => {
               technical expertise with a passion for health and wellness.
             </p>
 
-            <div className="flex flex-wrap gap-4 mt-8">
-              <div className="bg-gradient-to-r from-amber-500/20 to-yellow-500/20 border border-amber-500/30 rounded-lg px-4 py-2">
-                <span className="text-amber-400 font-semibold">Microsoft for Startups</span>
-              </div>
-              <div className="bg-gradient-to-r from-gray-500/20 to-slate-400/20 border border-gray-500/30 rounded-lg px-4 py-2">
-                <span className="text-gray-300 font-semibold">NVIDIA Inception</span>
+            <div className="mt-8">
+              <h4 className="text-lg font-semibold text-amber-400 mb-4">Supported By</h4>
+              <div className="flex justify-between items-center max-w-md">
+                <img src={microsoftLogo} alt="Microsoft for Startups" className="h-20 w-auto hover:scale-110 transition-transform duration-300" />
+                <img src={awsLogo} alt="AWS for Startups" className="h-20 w-auto hover:scale-110 transition-transform duration-300" />
+                <img src={nvidiaLogo} alt="NVIDIA Inception" className="h-16 w-auto hover:scale-110 transition-transform duration-300" />
               </div>
             </div>
           </div>

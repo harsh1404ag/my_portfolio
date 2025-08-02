@@ -1,5 +1,8 @@
 import React from 'react';
-import { ExternalLink, Brain, Activity, Globe } from 'lucide-react';
+import { ExternalLink, Brain, Activity } from 'lucide-react';
+import microsoftLogo from '../Microsoft-for-startup-logo.png';
+import awsLogo from '../aws-logo.png';
+import nvidiaLogo from '../nvidia-inception-program-badge-rgb-for-screen.png';
 
 const Projects: React.FC = () => {
   const projects = [
@@ -25,12 +28,17 @@ const Projects: React.FC = () => {
     {
       title: "Microsoft for Startups Founders Hub",
       description: "Selected for Microsoft's prestigious program supporting high-potential startups with resources, mentorship, and technology credits.",
-      icon: <Globe className="w-6 h-6 text-amber-400" />
+      icon: <img src={microsoftLogo} alt="Microsoft" className="w-8 h-8 object-contain" />
     },
     {
       title: "NVIDIA Inception Program",
       description: "Member of NVIDIA's program for cutting-edge AI startups, providing access to advanced GPU resources and technical support.",
-      icon: <Globe className="w-6 h-6 text-gray-400" />
+      icon: <img src={nvidiaLogo} alt="NVIDIA" className="w-8 h-8 object-contain" />
+    },
+    {
+      title: "AWS for Startups",
+      description: "Selected for AWS for Startups program, gaining access to cloud infrastructure, technical resources, and startup support to scale AI solutions.",
+      icon: <img src={awsLogo} alt="AWS" className="w-8 h-8 object-contain" />
     }
   ];
 
@@ -104,11 +112,11 @@ const Projects: React.FC = () => {
         {/* Recognition */}
         <div>
           <h3 className="text-2xl font-bold text-white mb-8 text-center">Industry Recognition</h3>
-          <div className="grid md:grid-cols-2 gap-8">
+          <div className="grid md:grid-cols-3 gap-8">
             {recognitions.map((recognition, index) => (
               <div key={index} className="bg-gradient-to-br from-gray-900/80 to-black/80 backdrop-blur-sm rounded-lg p-6 border border-gray-700 hover:border-amber-500/50 transition-all duration-300 group">
                 <div className="flex items-start space-x-4">
-                  <div className="flex-shrink-0 p-2 bg-gray-800/50 rounded-lg group-hover:bg-gray-700/50 transition-colors duration-300">
+                  <div className="flex-shrink-0">
                     {recognition.icon}
                   </div>
                   <div>
