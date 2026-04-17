@@ -6,14 +6,14 @@ const Contact: React.FC = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       label: "Email",
-      value: "harsh@intrinsai.com",
+      value: "harsh@eventworks.in",
       color: "text-amber-400"
     },
     {
       icon: <Globe className="w-6 h-6" />,
       label: "Website",
       value: "IntrinsAI.com",
-      link: "https://www.intrinsai.com/",
+      link: "https://www.eventworks.in/",
       color: "text-yellow-500"
     },
     {
